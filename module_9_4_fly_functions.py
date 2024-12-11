@@ -21,8 +21,8 @@ class MysticBall:
     def __init__(self, *words):
         self.words = words
     def __call__(self):
-        return random.choice(self.words)  # Возвращаем случайное слово
-
+        return random.choice(self.words) 
+        
 first_ball = MysticBall('Да', 'Нет', 'Наверное')
 print(first_ball())
 print(first_ball())
